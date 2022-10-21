@@ -1,3 +1,21 @@
 h1{
     color: red;
 }
+
+#div1 > a {
+    color: red;
+}
+
+.div2 a{
+    color: blue;
+}
+
+/*
+id é igual a #algo, sempre usando hashtag
+
+usar class, é sempre o .algo, utilizando o ponto
+
+utilizar o > sinal de maior, mostra para apenas alterar
+o filho da div, e não passar disso, caso nn utilize,
+ele vai apenas adicionar em todos na classe
+*/
