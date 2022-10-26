@@ -1,22 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-    background-color: grey;
+html,body{
+    height: 100%;
     font-family: tahoma;
 }
 
-ul.lista{
-    list-style-position: inside;
-    list-style-type: circle;
-    margin-left: 20px;
+.center{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: lightblue;
 }
 
-.lista li{
-    color: darkred;
-    font-size: 25px;
-    margin-top: 10px;
-}
-
-.lista li.item3{
-    color: darkgreen;
+.artigo{
+    margin-left: 30px;
+    background-color: lightblue;
 }
