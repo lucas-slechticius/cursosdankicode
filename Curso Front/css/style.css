@@ -1,9 +1,29 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: grey
+    background-color: grey;
+    font-family: tahoma;
 }
 
-.ls p{
-    letter-spacing: 2px;
+.artigo{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.artigo h1{
+    color: rgb( 0, 0, 0);
+    font-size: 23px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.artigo p{
+    color: #b4b4b4;
+    text-align: left;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 12px;
 }
