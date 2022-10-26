@@ -4,26 +4,6 @@
     background-color: grey
 }
 
-.artigo{
-    width: 1280px;
-    margin: 40px auto;
-    text-align: center;
-}
-
-.artigo h1{
-    color: #0d403b;
-    font-size: 23px;
-    font-family: tahoma, Times, serif;
-    font-weight: bold;
-}
-
-.artigo p{
-    font-size: 17px;
-    color: #b4b4b4;
-    font-family: tahoma;
-    font-style: normal;
-    font-weight: bold;
-    margin-top: 12px;
-    line-height: 40px;
-    text-align: left;
+.ls p{
+    letter-spacing: 2px;
 }
