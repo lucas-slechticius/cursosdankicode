@@ -1,18 +1,17 @@
-*{ /* sinal de *, (multiplicação) seleciona TUDO*/
+*{
     margin: 0;
     padding: 0;
+    background-color: grey
 }
 
-.menu{
-    width: 900px;
-    margin: 0 auto;
+.artigo{
+    width: 1280px;
+    margin: 40px auto;
+    text-align: center;
 }
 
-.menu > a{
-    color: red;
-}
-
-.menu a{
-    font-size: 20px;
-    margin:0 10px;
+.artigo h1{
+    color: #0d403b;
+    font-size: 23px;
+    font-family: tahoma, Times, serif;
 }
