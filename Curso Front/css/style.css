@@ -5,25 +5,18 @@
     font-family: tahoma;
 }
 
-.artigo{
-    width: auto;
-    height: auto;
-    text-align: center;
+ul.lista{
+    list-style-position: inside;
+    list-style-type: circle;
+    margin-left: 20px;
 }
 
-.artigo h1{
-    color: rgb( 0, 0, 0);
-    font-size: 23px;
-    font-style: normal;
-    font-weight: normal;
+.lista li{
+    color: darkred;
+    font-size: 25px;
+    margin-top: 10px;
 }
 
-.artigo p{
-    color: #b4b4b4;
-    text-align: left;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 40px;
-    margin-top: 12px;
+.lista li.item3{
+    color: darkgreen;
 }
