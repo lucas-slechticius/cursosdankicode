@@ -149,3 +149,30 @@ html,body{
     background-size:100%;
     background-image: url('../images/arrow.png');
 }
+
+.section-1{
+    padding:90px 0;
+}
+.section-1 h2{
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+
+.container-section-1 {
+    text-align: center;
+}
+
+.container-single{
+    float: left;
+    width: 33.333%;
+    padding: 30px;
+}
+
+.container-single p{
+    padding: 10px 25px;
+    display: inline-block;
+}
+.container-single img{
+    width: 70px;
+}
