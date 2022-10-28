@@ -42,14 +42,20 @@ html,body{
 }
 
 .form{
-    width: 400px;
     padding: 10px;
+    width: 400px;
     height: calc(100% + 30px);
     float: right;
     position: relative;
     top:-15px;
-    border: 8px solid #ccc; 
+    border-width: 12px;
+    border-color: rgba(120,120,120,0.5);
+    border-style: solid; 
     background-color: rgb(255, 255, 255);
+    background-clip:padding-box;
+    /*
+    background-origin tem o mesmo uso, mas para imagens.
+    */
 }
 
 .form h2{
@@ -92,4 +98,54 @@ html,body{
     height: 56px;
     background-color: #363A6D;
     display: inline-block;
+}
+
+.form input[type=submit]:hover{
+    background-color: #323665;    
+}
+
+.content{
+    margin-top:100px;
+    float: left;
+    width: 519px;
+    height: 270px;
+    background-color: rgba(33,35,67,0.7);
+}
+
+.content ul{
+    list-style-position: inside;
+    padding: 30px;
+}
+
+.content ul li{
+    color:white;
+    margin-top: 18px;
+}
+
+.container-2{
+    padding:40px 0;
+    background-color: #DDDDDD;
+    text-align: center;
+}
+
+.container-2 h2{
+    font-weight: normal;
+}
+
+.container-2 p{
+    width: 698px;
+    display: inline-block;
+    text-align: justify;
+    margin: 15px 0;
+}
+
+.arrow{
+    position: relative;
+    margin-left:20px;
+    left: 50%;
+    top: 60px;
+    width: 40px;
+    height: 40px;
+    background-size:100%;
+    background-image: url('../images/arrow.png');
 }
