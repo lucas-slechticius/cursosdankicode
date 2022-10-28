@@ -9,6 +9,10 @@ html,body{
     height: 100%;
 }
 
+.clear{
+    clear: both;
+}
+
 @font-face{
     src:url('../fonts/OpenSans-Light.ttf');
     font-family: "Open Sans";
@@ -20,6 +24,7 @@ html,body{
 }
 
 .header{
+    min-width: 1280px;
     width: 100%;
     height: 60px;
     background-color: #212343;
@@ -31,6 +36,7 @@ html,body{
 
 .container-banner{
     width: 100%;
+    min-width: 1280px;
     height: 557px;
     background-image:url('../images/header_bg.png');
     background-size: cover;
@@ -141,7 +147,7 @@ html,body{
 
 .arrow{
     position: relative;
-    margin-left:20px;
+    margin-left:-20px;
     left: 50%;
     top: 60px;
     width: 40px;
@@ -151,6 +157,7 @@ html,body{
 }
 
 .section-1{
+    min-width: 1200px;
     padding:90px 0;
 }
 .section-1 h2{
@@ -175,4 +182,15 @@ html,body{
 }
 .container-single img{
     width: 70px;
+}
+
+.footer{
+    border: 2px solid #888888;
+    padding: 20px 0;
+    text-align: center;
+    color: #888
+}
+
+.footer p{
+    margin-top: 8px;
 }
