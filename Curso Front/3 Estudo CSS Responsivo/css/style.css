@@ -16,59 +16,8 @@ html,body{
     border: 1px solid black;
 }
 
-
-/*
-
-Por aqui, conseguimos definir algo responsivo!
-perceba que podemos dar um Máx altura e Máx largura
-
-isso é ótimo para mobile e reponsivo, da um trabalho
-no inicio, mas é tecnicamente bem simples e facil
-
-viewport faz bastante sentido.
-
-
-@media screen and (max-height: 580px){
-    .box{
-        width: 50%;
-    }
-}
-
-@media screen and (min-height: 580px){
-    .box{
-        width: 50%;
-    }
-}
-
-
-@media screen and (min-width: 320px){
+@media screen and (max-width: 768px) and (max-height: 500px){
     .box{
         width: 100%;
     }
 }
-
-
-
-
-
-@media screen and (min-width: 580px){
-    .box{
-        width: 50%;
-    }
-}
-
-
-
-
-@media screen and (max-width: 580px){
-    .box{
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .box{
-        width: 100%;
-    }
-}
-*/
