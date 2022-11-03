@@ -8,37 +8,23 @@ html,body{
     height: 100%;
 }
 
-.clear{
-    clear: both;
-}
-/*
-.sidebar{
-    width: 300px;
-    height: 100%;
-    background: black;
-    float: left;
-}
-
-.content{
-    float: left;
-    width: calc(100% - 300px);
-    height: 100%;
-    background: #ccc;
-}
-
-
-
 .box{
-    width: calc((100% / 3) + 90px);
-    height: 90px;
-    background: red;
-}*/
-/* vw = Viewport width = largura do viewport*/
-/* Ele não leva em conta a ScrollBar*/
- /* vh = Viewport height = altura do viewport */
+    width: 33.3%;
+    height: 300px;
+    background-color: green;
+    float: left;
+    border: 1px solid black;
+}
 
-.box{
-    width: 100vw; 
-    height: 100vh;
-    background: gray;
+@media screen and (max-width: 580px){
+    .box{
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .box{
+        width: 100%;
+    }
 }
