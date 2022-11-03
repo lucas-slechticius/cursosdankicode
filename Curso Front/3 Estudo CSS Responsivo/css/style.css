@@ -16,8 +16,27 @@ html,body{
     border: 1px solid black;
 }
 
+/* 
+
+
+Nessa Situação fica Max Width OU!! max Height, assim
+qualquer um dos dois q atribuirem primeiro é aplicado a regra.
+
+@media screen and (max-width: 768px) , screen and (max-height: 500px){
+    .box{
+        width: 100%;
+    }
+}
+
+
+
+
+    Nessa situação, fica MAX WIDHT E MAX HEIGHT 
+
 @media screen and (max-width: 768px) and (max-height: 500px){
     .box{
         width: 100%;
     }
 }
+
+*/
