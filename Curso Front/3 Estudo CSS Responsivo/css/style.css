@@ -16,6 +16,26 @@ html,body{
     border: 1px solid black;
 }
 
+
+/*
+
+aqui eu estou dizendo que a largura tem q ser 2x maior q a altura 
+@media screen and (max-aspect-ratio: 2/1){
+    .box{
+        width: 100%;
+    }
+}
+
+
+Aqui funciona da mesma forma, só q oposto
+@media screen and (min-aspect-ratio: 2/1){
+.box{
+    width: 100%;
+    }
+}
+*/
+
+
 /* 
 
 
