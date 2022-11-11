@@ -75,6 +75,53 @@
                     </div><!--w100-->
 
                     <div class="w100">
+                        <h2>Data de Nascimento:</h2>
+                        
+                        <select name="nascimento-dia" class="nascimento">
+                            
+                            <?php
+                                for($i = 1; $i <= 31; $i++){
+                            ?>
+                            <option value="<?php echo $i; ?>"><?php echo $i; ?>1</option>
+                            <?php } ?>
+
+                        </select>
+                        <!--Então, segui esse código PHP do meu curso, mas não 
+                        consegui fazer funcionar, estou codando pelo vsc, baixei alguns
+                        plugins mas ainda nn deu certo, vou manter o código, pois pode
+                        ser que funcione quando eu testar outros métodos mais tarde :)-->
+                        <select name="nascimento-mes" class="nascimento">
+                            <option value="0">Junho</option>
+                        </select>
+
+                        <select name="nascimento-ano" class="nascimento">
+                            
+                            <?php
+                                for($i = 1960; $i <= 2022; $i++){
+                            ?>
+                            <option value="<?php echo $i; ?>"><?php echo $i; ?>1999</option>
+                            <?php } ?>        
+                            
+
+                        </select>
+
+                        <div class="clear"></div>
+
+                    </div><!--w100-->
+
+                    <div class="w100">
+                        <div class="input-radio">
+                            <input type="radio" name="sexo" value="masculino">
+                            <h2>Masculino</h2>
+
+                            <input type="radio" name="sexo" value="feminino">
+                            <h2>Feminino</h2>
+
+                        </div><!--radio-->
+                    </div><!--w100-->
+
+
+                    <div class="w100">
                         <input type="submit" name="acao" value="Cadastrar!">
                     </div><!--w100-->
 
@@ -85,6 +132,18 @@
         </div><!--center-->
 
     </section><!--main-->
+
+    <section class="linguas">
+        <div class="center">
+            <a class="selected-lingua" href="#">Lorem, ipsum.</a>
+            <a href="#">Pt-Br</a>
+            <a href="#">Lorem.</a>
+            <a href="#">English</a>
+            <a href="#">English-UK</a>
+            <a href="#">English 2</a>
+            <a href="#">Pt-Br 2</a>
+        </div><!--center-->
+    </section><!--linguas-->
 
 </body>    
 </html>
