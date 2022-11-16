@@ -188,3 +188,51 @@ section.linguas a{
 section.linguas a.selected-lingua{
     color: #737373;
 }
+
+@media screen and (max-width: 768px){
+    .logo{
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    form.form-login{
+        margin-top: 17px;
+        float: none;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .form-login .form-element{
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .form-element p{
+        color: white;
+        font-size: 14px;
+    }
+    
+    .form-element input[type="email"],
+    .form-element input[type="password"]{
+        margin-top: 4px;
+        border: 0;
+        height: 22px;
+        padding-left: 3px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .form-element input[type=submit]{
+        width: 140px;
+    }
+
+    .img-pessoas{
+        display: none;
+    }
+    .abrir-conta{
+        width: 100%;
+    }
+
+}
