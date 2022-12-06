@@ -93,12 +93,27 @@ section.cover-form{
 	margin-top:40px;
 }
 
+.form-wraper:last-child{
+	margin-top:20px;
+}
+
 .form-container form input[type=text]{
 	width: 100%;
 	border: 1px solid #ccc;
 	height: 45px;
 	line-height: 45px;
 	padding-left: 10px;
+}
+
+.form-container form input[type=submit]{
+	background-color: #033C50;
+	text-transform: uppercase;
+	color: white;
+	width: 100%;
+	font-size: 20px;
+	height: 50px;
+	cursor: pointer;
+	border: 0;
 }
 
 
