@@ -131,7 +131,47 @@ section.chamada h2{
 
 }
 
+.flex-mosaico{
+	display: flex;
+}
 
+.item-1-mosaico{
+	background-image: url('/images/ampeglifesound.jpg');
+	background-size: cover;
+	width: 60%;
+	height: 400px;
+}
+
+.item-2-mosaico{
+	padding: 40px;
+	width: 40%;
+	background-color: #adadad;
+}
+
+footer{
+	text-align: center;
+	padding: 20px 0;
+}
+
+footer p{
+	margin-top:8px;
+}
+
+@media screen and (max-width: 768px){
+	.flex-mosaico{
+		display: block;
+	}
+
+	.item-1-mosaico{
+		padding-top: 80%;
+		width: 100%;
+	}
+
+	.item-2-mosaico{
+		text-align: center;
+		width: 100%;
+	}
+}
 
 @media screen and (max-width: 510px){
 
