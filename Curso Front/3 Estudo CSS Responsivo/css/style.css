@@ -55,6 +55,7 @@ header nav li{
 header nav ul a{
 	color: white;
 	text-decoration: none;
+	font-size: 20px;
 }
 
 .chamada1{
@@ -71,7 +72,7 @@ header nav ul a{
 
 section.sessao1{
 	width: 100%;
-	background-color: brown;
+	background-color: #3d180d;
 	padding: 20px 2%;
 }
 
