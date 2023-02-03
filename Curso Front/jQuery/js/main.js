@@ -4,17 +4,14 @@ alert("ola mundo")
 
 $(window).on('load',function(){
     alert("olá mundo")
-})*/
+})
 
-$(function(){
+
 
     $('body').click(function(){
         $('.box').css('background-color','green');
     })
 
-
-
-    /*
 
     Gostaria de informar que esse código abaixo foi gerado por uma tecnologia da OpenIA
     chamada ChatGPT, uma IA em formato de chat que soluciona dúvidas de forma
@@ -43,5 +40,18 @@ Simplesmente sensacional a tecnologia.
 
 
 */
+$(function(){
+
+    //var elWidth = $('.box').width();
+
+
+    //Pegamos a largura do nosso elemento
+    $('.box').width();
+
+
+    //Setamos a largura.
+    $('.box').css('width','900px');
+
+    console.log($('.box').width());
 
 });
